@@ -71466,7 +71466,7 @@ UQ(a){var s=0,r=A.V(t.LT),q,p,o,n,m,l,k,j,i,h
 var $async$rp=A.W(function(b,c){if(b===1)return A.S(c,r)
 while(true)switch(s){case 0:j=A.aK(["key","AAE4E1A9-7E31-34ED-B328-A0102C92C537","request","search","type","ADDRESS","category","ROAD","query",a,"size",30],t.N,t.K)
 s=3
-return A.a_(A.anz(null).Dm(0,"http://api.vworld.kr/req/search",j,t.z),$async$rp)
+return A.a_(A.anz(null).Dm(0,"https://api.vworld.kr/req/search",j,t.z),$async$rp)
 case 3:i=c
 h=$.D2()
 h.lv(B.bI,i,null,null)
@@ -71495,7 +71495,7 @@ var $async$uO=A.W(function(c,d){if(c===1)return A.S(d,r)
 while(true)switch(s){case 0:p=t.z
 o=A.aK(["key","AAE4E1A9-7E31-34ED-B328-A0102C92C537","service","address","request","GetAddress","type","BOTH","point",A.h(b)+", "+A.h(a)],t.N,p)
 s=3
-return A.a_(A.anz(null).Dm(0,"http://api.vworld.kr/req/address",o,p).fY(new A.TE()),$async$uO)
+return A.a_(A.anz(null).Dm(0,"https://api.vworld.kr/req/address",o,p).fY(new A.TE()),$async$uO)
 case 3:n=d
 $.D2().lv(B.bI,n,null,null)
 s=1
