@@ -71719,7 +71719,7 @@ k=A.ay(["key","AAE4E1A9-7E31-34ED-B328-A0102C92C537","request","search","type","
 j=t.z
 i=J
 s=3
-return A.U(A.awy(A.ans("baseUrl",null,null,null,null,A.ay(["x-cors-api-key","temp_4f52d28467f5a106b8eddda47ae080d1","content-type","application/jsonp","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","X-Requested-With","Access-Control-Allow-Methods","GET","Access-Control-Allow-Credentials","true"],l,j),null,null,null,null,null,null,null,null,B.dh,null,!1,null)).Dt(0,"https://proxy.cors.sh/https://api.vworld.kr/req/search",k,j).fj(new A.TT()),$async$rv)
+return A.U(A.awy(A.ans("baseUrl",null,null,null,null,A.ay(["x-cors-api-key","temp_4f52d28467f5a106b8eddda47ae080d1","content-type","application/jsonp","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","X-Requested-With","Access-Control-Allow-Methods","GET","Access-Control-Allow-Credentials","true"],l,j),null,null,null,null,null,null,null,null,B.dh,null,!1,null)).Dt(0,"https://api.vworld.kr/req/search",k,j).fj(new A.TT()),$async$rv)
 case 3:j=i.b0(c.a,"response")
 p=new A.Dp()
 l=J.ao(j)
@@ -71760,7 +71760,7 @@ l=new A.Fo($,new A.wG(A.a([],f),new A.lA(),new A.lA(),new A.lA()),$,new A.Fi(),!
 l.Bu$=m
 l.Bv$=new A.E2(A.aN(g))
 s=6
-return A.U(l.Dt(0,"https://proxy.cors.sh/http://api.vworld.kr/req/address",n,d).fj(new A.TU()),$async$uV)
+return A.U(l.Dt(0,"http://api.vworld.kr/req/address",n,d).fj(new A.TU()),$async$uV)
 case 6:k=a0
 $.up().nh(B.cR,k,null,null)
 j=A.avz(J.b0(k.a,"response"))
