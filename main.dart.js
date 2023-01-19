@@ -71604,7 +71604,7 @@ j.pH$.suh(0,u.F)
 i=t.z
 h=J
 s=3
-return A.Z(j.Pg(0,"https://cors-anywhere.herokuapp.com/https://api.vworld.kr/req/search",new A.HV(null,A.ay(["Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","X-Requested-With","Access-Control-Allow-Methods","GET, POST","Access-Control-Allow-Credentials","true"],l,i),null,null,null,null,null,null,null,null,null,null,null,null),k,i).fj(new A.TM()),$async$rq)
+return A.Z(j.Pg(0,"https://api.vworld.kr/req/search",new A.HV(null,A.ay(["Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","X-Requested-With","Access-Control-Allow-Methods","GET, POST","Access-Control-Allow-Credentials","true","content-type","application/json"],l,i),null,null,null,null,null,null,null,null,null,null,null,null),k,i).fj(new A.TM()),$async$rq)
 case 3:i=h.b2(c.a,"response")
 p=new A.Di()
 l=J.ao(i)
@@ -71654,10 +71654,10 @@ k===$&&A.b()
 j=B.c.he(u.F)
 l.e=j
 k.l(0,"content-type",j)
-i=new A.HV(null,A.ay(["Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","X-Requested-With","Access-Control-Allow-Methods","GET, POST","Access-Control-Allow-Credentials","true"],b,a),null,null,null,null,null,null,null,null,null,null,null,null)
+i=new A.HV(null,A.ay(["Access-Control-Allow-Origin","*","Access-Control-Allow-Headers","X-Requested-With","Access-Control-Allow-Methods","GET, POST","Access-Control-Allow-Credentials","true","content-type","application/jsonp"],b,a),null,null,null,null,null,null,null,null,null,null,null,null)
 i.a="GET"
 s=6
-return A.Z(m.w6(0,"https://cors-anywhere.herokuapp.com/http://api.vworld.kr/req/address",null,null,i,n,a).fj(new A.TN()),$async$uQ)
+return A.Z(m.w6(0,"http://api.vworld.kr/req/address",null,null,i,n,a).fj(new A.TN()),$async$uQ)
 case 6:h=a3
 $.D6().q2(B.dY,h,null,null)
 g=A.avi(J.b2(h.a,"response"))
