@@ -71725,7 +71725,7 @@ k=A.ay(["key","AAE4E1A9-7E31-34ED-B328-A0102C92C537","request","search","type","
 j=t.z
 i=J
 s=3
-return A.U(A.awA(A.anu("baseUrl",null,null,null,null,A.ay(["x-cors-api-key","temp_4f52d28467f5a106b8eddda47ae080d1","Content-Type","application/x-www-form-urlencoded","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers",u.A,"Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Credentials","true","X-Requested-With","XMLHttpRequest"],l,j),null,null,null,null,null,null,null,null,B.dh,null,!1,null)).Dt(0,"http://cors-anywhere.herokuapp.com/https://api.vworld.kr/req/search",k,j).fj(new A.TV()),$async$rv)
+return A.U(A.awA(A.anu("baseUrl",null,null,null,null,A.ay(["x-cors-api-key","temp_4f52d28467f5a106b8eddda47ae080d1","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers",u.A,"Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Credentials","true","X-Requested-With","XMLHttpRequest"],l,j),null,null,null,null,null,null,null,null,B.dh,null,!1,null)).Dt(0,"https://info-getthekt.herokuapp.com/https://api.vworld.kr/req/search",k,j).fj(new A.TV()),$async$rv)
 case 3:j=i.b0(c.a,"response")
 p=new A.Dq()
 l=J.ao(j)
@@ -71761,12 +71761,12 @@ p=A.a([],t.Um)
 h=i.length,g=t.Gf,f=t.lC,o=0
 case 3:if(!(o<i.length)){s=5
 break}n=i[o]
-m=A.anu("baseUrl",null,null,null,null,A.ay(["x-cors-api-key","temp_4f52d28467f5a106b8eddda47ae080d1","Content-Type","application/x-www-form-urlencoded","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers",u.A,"Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Credentials","true","X-Requested-With","XMLHttpRequest"],e,d),null,null,null,null,null,null,null,null,B.dh,null,!1,null)
+m=A.anu("baseUrl",null,null,null,null,A.ay(["x-cors-api-key","temp_4f52d28467f5a106b8eddda47ae080d1","Access-Control-Allow-Origin","*","Access-Control-Allow-Headers",u.A,"Access-Control-Allow-Methods","POST, GET, OPTIONS, PUT, DELETE, HEAD","Access-Control-Allow-Credentials","true","X-Requested-With","XMLHttpRequest"],e,d),null,null,null,null,null,null,null,null,B.dh,null,!1,null)
 l=new A.Fp($,new A.wI(A.a([],f),new A.lA(),new A.lA(),new A.lA()),$,new A.Fj(),!1)
 l.Bu$=m
 l.Bv$=new A.E3(A.aN(g))
 s=6
-return A.U(l.Dt(0,"http://cors-anywhere.herokuapp.com/http://api.vworld.kr/req/address",n,d).fj(new A.TW()),$async$uV)
+return A.U(l.Dt(0,"https://info-getthekt.herokuapp.com/http://api.vworld.kr/req/address",n,d).fj(new A.TW()),$async$uV)
 case 6:k=a0
 $.up().nh(B.cR,k,null,null)
 j=A.avB(J.b0(k.a,"response"))
